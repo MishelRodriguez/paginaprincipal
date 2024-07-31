@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+    padding: 5px;
+}
+
+#titulo1{
+    color:rgb(0, 0, 0);
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#texto{
+    color:rgb(41, 41, 41);
+    font-family: Impact;
+    font-weight: lighter;
+    font-size: 25px;
+}
+
+#contenido{
+    color:rgb(0, 0, 0);
+    font-family: Tahoma;
+    font-weight:bold;
+    font-size: 25px;
+}
+
+nav{
+    width: 300px;
+    border: 0px solid rgb(0, 0, 0);
+}
+
+.lista{
+    list-style: none;
+    padding: 0;
+    margin:0;
+}
+
+.lista li{
+    margin-bottom: 1px;
+}
+
+.lista a{
+    color: rgb(255, 255, 255);
+    background-color: #015005;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+}
+
+.lista a:hover{
+    background-color: #000c00;
+}
+
+footer{
+    color: rgb(0, 0, 0);
+    font-family: Arial;
+    font-size: 20px;
+    align-items: middle;
+}
+/* Nav Boton Regresar*/
+.regresar{
+    list-style: none;
+    padding: 0;
+    margin:0;
+}
+
+.regresar li{
+    margin-bottom: 1px;
+}
+
+.regresar a{
+    color: white;
+    background-color: #333;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+}
+
+.regresar a:hover{
+background-color: #575757;
+}
+*{
+    margin: 0px;
+    padding: 5px;
+}

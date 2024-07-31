@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 1rem;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* caja de productos */
+.caja{
+    float:left;
+    width: 431px;
+    margin: 8px;
+    border: 1px solid;
+}
+.subtitulo{
+    background: #1551a1;
+}
+.servicios{
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+
+}
+.efecto:hover{
+    opacity: 0.7;
+}
+.contenido{
+    padding: 20px;
+    text-align: justify;
+}
+.boton{
+    padding: 15px 20px;
+    margin: 20px 0;
+    color: white;
+    background: #0f3970;
+    border-radius: 5px;
+}
+.boton:hover{
+    background: #082141;
+    cursor: pointer;
+}
